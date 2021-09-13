@@ -18,7 +18,7 @@ df = pd.read_csv("csv/2019-by-clinic-gcode.csv")
 
 # Sidebar inputs
 st.sidebar.markdown("## Customize")
-address = st.sidebar.text_input("Your address", '1033 Cordova St, Pasadena, California')
+address = st.sidebar.text_input("Your address", '486 45th Avenue San Francisco, CA')
 num_clinics = st.sidebar.text_input("Number of clinics", 10)
 
 
